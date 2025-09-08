@@ -1,4 +1,4 @@
-## 📌 操作说明
+## 📌 React + JS重构
 
 1✅、node22.19.0 npm 10.9.3
 ```bash
@@ -15,11 +15,8 @@ npm i
 
 3✅、安装Tailwind
 ```bash
-# 查看是否还有 FullNode.jar 正在运行
-ps aux | grep FullNode | grep -v grep
-
-# 查看日志末尾（不要加过滤）
-sudo tail -n 50 /opt/tron/output.log
+npm i -D tailwindcss@3.4.13 postcss@8 autoprefixer@10
+.\node_modules\.bin\tailwindcss.cmd init -p
 ```
 
 4✅、tailwind.config.js
