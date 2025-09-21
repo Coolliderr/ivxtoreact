@@ -59,5 +59,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 8✅、启动开发服务器
 ```bash
-npm run dev
+npm run dev -- --host
 ```
