@@ -61,3 +61,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ```bash
 npm run dev -- --host
 ```
+
+9✅、构建项目
+```bash
+npm run build
+```
